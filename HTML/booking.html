@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display:flex;
+            justify-content: center;
+            margin-top:40%;
+        }
+        table ,td,th{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="#">
+            <table>
+                <tr>
+                    <th colspan="2">Flying form</th>
+                    <th colspan="2">To</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <select name="FF" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="2">3</option>
+                        </select>
+                    </td>
+                    <td colspan="2">
+                        <select name="To" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="2">3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">Departing form</th>
+                    <th colspan="2">Returning</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="date" name="Dp" id="">
+                    </td>
+                    <td colspan="2">
+                        <input type="date" name="Rt" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Adult</th>
+                    <th>Child</th>
+                    <th>Infant</th>
+                    <th style="color:red">Currency</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" name="Ad" id="">
+                    </td>
+                    <td>
+                        <input type="number" name="Ch" id="">
+                    </td>
+                    <td>
+                        <input type="number" name="If" id="">
+                    </td>
+                    <td>
+                        <select name="Currency" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="2">3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type = "submit" value = "SEACH" style="background-color:red;color: white;;">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
