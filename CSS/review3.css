@@ -1,0 +1,21 @@
+.body{
+    width: 100%;
+}
+.cen{
+    display: flex;
+    justify-content: center;
+}
+.w-50{
+    width:50%;
+}
+table,th,td{
+    text-align:left;
+    /*border:1px black solid;*/
+    border-collapse:collapse;
+}
+table{
+    width:100%;
+}
+.w-100{
+    width:98%; 
+}

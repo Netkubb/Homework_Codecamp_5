@@ -1,0 +1,38 @@
+table ,td,th{
+    border-collapse: collapse;
+}
+table{
+    width:50%;
+}
+.s-25{
+    width:25%;
+}
+#h{
+    color:red;
+}
+.a{
+    color:blue;
+}
+
+td::first-letter{
+    color:green;
+}
+td:hover{
+    background-color: grey;
+}
+td[colspan="1"]{
+    background-color: hotpink;
+}
+table tr{
+    border:1px black solid;
+}
+td>div{
+    /*no result*/
+    background-color: green;
+}
+th+td{
+    border:2px pink solid;
+}
+td~td{
+    border:3px red solid;
+}
