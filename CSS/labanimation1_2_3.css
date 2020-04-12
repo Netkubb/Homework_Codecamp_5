@@ -1,0 +1,67 @@
+.animation{
+    width:100px;
+    height:100px;
+    animation: net 5s 2s infinite;
+}
+
+@keyframes net{
+    from{
+        background-color: black;
+        width:500px
+    }
+    to{
+        background-color: aqua;
+    }
+}
+
+.animation2{
+    width:100px;
+    height:100px;
+    animation: net2 5s 2s infinite reverse;
+}
+
+@keyframes net2{
+    0%{
+        background-color: blue;
+    }
+    20%{
+        border:10px solid red;
+        background-color: green;
+    }
+    40%{
+        border:20px solid black;
+        background-color: yellow;
+    }
+    60%{
+        border:30px solid firebrick;
+        background-color: olive;
+    }
+    80%{
+        border:20px dotted darkturquoise;
+        background-color: brown;
+    }
+    100%{
+        border:10px dotted gold;
+        background-color: indigo;
+        opacity: 0.5;
+    }
+}
+.animation3{
+    width:100px;
+    height:100px;
+    animation: net3 2.5s infinite alternate;
+    position:relative;
+}
+
+@keyframes net3{
+    0%{
+        background-color: blueviolet;
+        left:200px;
+        opacity: 1;
+    }
+    100%{
+        background-color: yellowgreen;
+        left:100px;
+        opacity: 0;
+    }
+}
