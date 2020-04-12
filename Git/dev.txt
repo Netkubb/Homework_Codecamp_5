@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 hi there
 
 developing
 
 developer
-=======
 developing
->>>>>>> dev
